@@ -17,6 +17,7 @@ function createButtons (nameButton){
     newButton.id = nameButton;
     header.appendChild(newButton);
 }
+
 createButtons("Home");
 //Changes the color of the button to demostrate that is selected
 const Home = document.getElementById('Home');
