@@ -14,6 +14,7 @@ function createButtons (nameButton){
     let newButton = document.createElement('button');
     newButton.classList = "Header-buttons";
     newButton.innerText = nameButton;
+    newButton.id = nameButton;
     header.appendChild(newButton);
 }
 createButtons("Home");

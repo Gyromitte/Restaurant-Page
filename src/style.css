@@ -40,6 +40,9 @@ header{
     padding: 10px;
     padding-bottom: 20px;
 }
+.Header-buttons:hover{
+    filter: brightness(50%);
+}
 #test{
     background-color:rgb(255, 60, 0);
     border-bottom: none;
