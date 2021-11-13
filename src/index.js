@@ -9,6 +9,6 @@ Menu.addEventListener('click', e=>{
 });
 
 const Contact = document.getElementById('Contact');
-Contact.addEventListener('contact', e=>{
+Contact.addEventListener('click', e=>{
     console.log("switch to Contact");
 });
