@@ -25,12 +25,12 @@ header{
     margin-right: auto;
 }
 .Header-buttons{
-    margin-bottom: -97px;
+    margin-bottom: -86px;
     font-family: 'Fredoka One', cursive;
     font-size: large;
     color: white;
     font-weight: bold;
-    background-color: black;
+    background-color: rgb(255, 60, 0);
     margin-right: 10px;
     border-color: white;
     border-top-left-radius: 10px;
@@ -38,16 +38,16 @@ header{
     border: 10px solid white;
     border-bottom: none;
     padding: 10px;
-    padding-bottom: 20px;
+
 }
 .Header-buttons:hover{
     filter: brightness(50%);
 }
-#test{
-    background-color:rgb(255, 60, 0);
+#selected{
+    background-color: black;
     border-bottom: none;
-    padding-bottom: 10px;
-    margin-bottom: -86px;
+    padding-bottom: 20px;
+    margin-bottom: -97px;
 }
 #Home-info{
     display: flex;

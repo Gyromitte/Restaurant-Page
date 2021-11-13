@@ -18,6 +18,10 @@ function createButtons (nameButton){
     header.appendChild(newButton);
 }
 createButtons("Home");
+//Changes the color of the button to demostrate that is selected
+const Home = document.getElementById('Home');
+Home.id = "selected";
+
 createButtons("Menu");
 createButtons("Contact");
 
