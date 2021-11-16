@@ -69,10 +69,12 @@ header{
 }
 .tab-title{
     background-color: black;
-    border: 10px solid white;
+    border: 5px solid white;
     color: rgb(255, 60, 0);
     padding: 30px;
-    border-radius: 100px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     font-size: 50px;
     margin: 20px;
     text-align: center;
@@ -82,4 +84,16 @@ header{
     width: 200px;
     height: 200px;
     margin: 20px;
+}
+.menu-images:hover{
+    border: 10px solid rgb(255, 60, 0);
+}
+.menu-images-container{
+    width: 300px;
+    text-align: center;
+}
+
+menu{
+    display: flex;
+    justify-content: space-between;
 }
