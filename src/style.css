@@ -92,8 +92,14 @@ header{
     width: 300px;
     text-align: center;
 }
-
 menu{
     display: flex;
     justify-content: space-between;
+}
+contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    padding: 50px;
 }
