@@ -1,14 +1,16 @@
-const Home = document.getElementById('Home');
+showHomeTab();
+
+const Home = document.getElementById('selected');
 Home.addEventListener('click', e=>{
-    console.log("switch to home");
+    showHomeTab();
 });
 
-const Menu = document.getElementById('Menu');
+
 Menu.addEventListener('click', e=>{
-    console.log("switch to menu");
+    showMenuTab();
 });
 
-const Contact = document.getElementById('Contact');
+
 Contact.addEventListener('click', e=>{
-    console.log("switch to Contact");
+    showContactTab();
 });

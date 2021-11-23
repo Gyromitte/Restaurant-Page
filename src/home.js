@@ -1,3 +1,5 @@
+function showHomeTab(){
+
 const content = document.getElementById('content');
 
 const header = document.createElement('header');
@@ -36,7 +38,4 @@ homeImage.id = "Home-image";
 homeImage.src = "images/home-image.jpg";
 homeImage.alt = "home-Image";
 homeInfo.appendChild(homeImage);
-
-
-
-
+}

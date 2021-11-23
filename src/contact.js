@@ -1,3 +1,5 @@
+function showContactTab(){
+
 const content = document.getElementById('content');
 
 const header = document.createElement('header');
@@ -44,3 +46,5 @@ contact.appendChild(phoneImage);
 const contactNumber = document.createElement('p');
 contactNumber.innerText = "87-89-86-69-42-01";
 contact.appendChild(contactNumber);
+}
+

@@ -1,4 +1,5 @@
-const content = document.getElementById('content');
+function showMenuTab(){
+    const content = document.getElementById('content');
 
 const header = document.createElement('header');
 header.innerText = "SUSHI N GADA";
@@ -53,4 +54,4 @@ function createMenuImages(nameItem, source){
 createMenuImages("Individual Nigiri's", "images/menu/salmon-nigiri.jpg");
 createMenuImages("California Roll's", "images/menu/california-roll.jpg");
 createMenuImages("Makizushi", "images/menu/makizushi.jpg");
-
+}
