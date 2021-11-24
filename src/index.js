@@ -25,7 +25,6 @@ Contact.addEventListener('click', e=>{
 }
 
 reAsignEvents();
-
 function clearContent(){
     document.getElementById('content').innerHTML = "";
 }

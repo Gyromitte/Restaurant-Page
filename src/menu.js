@@ -1,4 +1,4 @@
-function showMenuTab(){
+function showMenuTab(){   
 
 const content = document.getElementById('content');
 

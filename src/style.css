@@ -23,6 +23,13 @@ header{
     height: 100px;
     margin-left: 20px;
     margin-right: auto;
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+#Sushi-logo:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 .Header-buttons{
     margin-bottom: -86px;
