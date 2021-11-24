@@ -38,12 +38,11 @@ header{
     border: 10px solid white;
     border-bottom: none;
     padding: 10px;
-
 }
 .Header-buttons:hover{
     filter: brightness(50%);
 }
-#selected{
+.selected{
     background-color: black;
     border-bottom: none;
     padding-bottom: 20px;

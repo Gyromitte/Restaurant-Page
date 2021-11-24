@@ -25,7 +25,8 @@ createButtons("Menu");
 createButtons("Contact");
 //Changes the color of the button to demostrate that is selected
 const Contact = document.getElementById('Contact');
-Contact.id = "selected";
+Contact.id = "Contact";
+Contact.classList  = "Header-buttons selected";
 
 const contactTab = document.createElement("contact-tab");
 content.appendChild(contactTab);

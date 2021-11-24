@@ -1,5 +1,6 @@
 function showMenuTab(){
-    const content = document.getElementById('content');
+
+const content = document.getElementById('content');
 
 const header = document.createElement('header');
 header.innerText = "SUSHI N GADA";
@@ -24,7 +25,8 @@ createButtons("Home");
 createButtons("Menu");
 //Changes the color of the button to demostrate that is selected
 const Menu = document.getElementById('Menu');
-Menu.id = "selected";
+Menu.id = "Menu";
+Menu.classList = "Header-buttons selected";
 
 createButtons("Contact");
 

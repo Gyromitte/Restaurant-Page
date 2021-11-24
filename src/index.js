@@ -1,23 +1,32 @@
 showHomeTab();
 
+function reAsignEvents(){
+
+const Home = document.getElementById('Home');
+Home.addEventListener('click', e=>{
+    clearContent();
+    showHomeTab();
+    reAsignEvents();
+});
+
+const Menu = document.getElementById('Menu');
+Menu.addEventListener('click', e=>{
+    clearContent();
+    showMenuTab();
+    reAsignEvents();
+});
+
+const Contact = document.getElementById('Contact');
+Contact.addEventListener('click', e=>{
+    clearContent();
+    showContactTab();
+    reAsignEvents();
+});
+}
+
+reAsignEvents();
+
 function clearContent(){
     document.getElementById('content').innerHTML = "";
 }
 
-const Home = document.getElementById('selected');
-Home.addEventListener('click', e=>{
-    clearContent();
-    showHomeTab();
-});
-
-
-Menu.addEventListener('click', e=>{
-    clearContent();
-    showMenuTab();
-});
-
-
-Contact.addEventListener('click', e=>{
-    clearContent();
-    showContactTab();
-});
