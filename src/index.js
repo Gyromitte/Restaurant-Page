@@ -1,3 +1,7 @@
+import {showHomeTab} from './home.js';
+import {showMenuTab} from './menu.js';
+import {showContactTab} from './contact.js';
+
 showHomeTab();
 
 function reAsignEvents(){
