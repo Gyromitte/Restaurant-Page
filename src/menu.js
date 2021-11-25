@@ -57,3 +57,5 @@ createMenuImages("Individual Nigiri's", "images/menu/salmon-nigiri.jpg");
 createMenuImages("California Roll's", "images/menu/california-roll.jpg");
 createMenuImages("Makizushi", "images/menu/makizushi.jpg");
 }
+
+export {showMenuTab};

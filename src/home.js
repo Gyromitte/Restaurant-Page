@@ -40,3 +40,5 @@ homeImage.src = "images/home-image.jpg";
 homeImage.alt = "home-Image";
 homeInfo.appendChild(homeImage);
 }
+
+export {showHomeTab};

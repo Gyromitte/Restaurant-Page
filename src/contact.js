@@ -49,3 +49,4 @@ contactNumber.innerText = "87-89-86-69-42-01";
 contact.appendChild(contactNumber);
 }
 
+export {showContactTab};
