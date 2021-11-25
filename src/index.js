@@ -3,6 +3,9 @@ import {showMenuTab} from './menu.js';
 import {showContactTab} from './contact.js';
 import './style.css';
 
+function requireAll(r) { r.keys().forEach(r); }
+requireAll(require.context('./images/', true));
+
 showHomeTab();
 
 function reAsignEvents(){
